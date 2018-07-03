@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jelly.thor.crashhelp">
+
+    <application>
+
+        <!--authorities字段的值用来表明使用的使用者，在FileProvider的函数getUriForFile需要传入该参数。-->
+        <!--name的值一般都固定为android.support.v4.content.FileProvider。如果开发者继承了FileProvider，则可以写上其绝对路径。-->
+        <!--exported 的值为false，表示该FileProvider只能本应用使用，不是public的。-->
+        <!--grantUriPermissions 的值为true，表示允许赋予临时权限。-->
+        <!--<provider-->
+            <!--android:name="com.jelly.thor.crashhelp.CrashHelpFileProvider"-->
+            <!--android:authorities="com.jelly.thor.crashhelp.CrashHelpFileProvider"-->
+            <!--android:exported="false"-->
+            <!--android:grantUriPermissions="true">-->
+            <!--<meta-data-->
+                <!--android:name="android.support.FILE_PROVIDER_PATHS"-->
+                <!--android:resource="@xml/file_paths" />-->
+        <!--</provider>-->
+
+        <activity
+            android:name=".CrashActivity"
+            android:launchMode="singleInstance" />
+    </application>
+
+</manifest>

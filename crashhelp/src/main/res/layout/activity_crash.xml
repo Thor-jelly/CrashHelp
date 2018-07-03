@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrashActivity">
+
+    <TextView
+        android:id="@+id/mTitleName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#D9493E"
+        android:gravity="center"
+        android:text="崩溃信息"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTitleName">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mMainMsgStr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="崩溃信息："
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/mMainMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="11111111111"
+                android:textColor="#D9493E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/mPackageNameStr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="包名："
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/mPackageName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="11111111111"
+                android:textColor="#D9493E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/mFileNameStr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="文件名："
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/mFileName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="11111111111"
+                android:textColor="#D9493E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/mClassNameStr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="类名："
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/mClassName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="11111111111"
+                android:textColor="#D9493E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/mMethodNameStr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="方法名："
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/mMethodName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="11111111111"
+                android:textColor="#D9493E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/mLineNumStr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="行数："
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/mLineNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="11111111111"
+                android:textColor="#D9493E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/mTypeStr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="崩溃类型："
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/mType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="11111111111"
+                android:textColor="#D9493E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/mTimeStr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="时间："
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/mTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="11111111111"
+                android:textColor="#D9493E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/mModelStr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="设备名称："
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/mModel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="11111111111"
+                android:textColor="#D9493E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/mBrandStr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="设备厂商："
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/mBrand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="11111111111"
+                android:textColor="#D9493E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/mVersionStr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="系统版本："
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/mVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="11111111111"
+                android:textColor="#D9493E"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/mAllExceptionStr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="全部信息："
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/mAllException"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="11111111111"
+                android:textColor="#D9493E"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>
