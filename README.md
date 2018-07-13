@@ -11,7 +11,7 @@ allprojects {
 		}
 	}
 	dependencies {
-	        implementation 'com.github.Thor-jelly:CrashHelp:v1.0.0'
+	        implementation 'com.github.Thor-jelly:CrashHelp:v1.0.4'
 	}
 ```
 
