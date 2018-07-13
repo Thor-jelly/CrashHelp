@@ -2,6 +2,19 @@
 > 崩溃日志手机端显示
 
 # 使用
+
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+	dependencies {
+	        implementation 'com.github.Thor-jelly:CrashHelp:v1.0.0'
+	}
+```
+
 在application中初始化
 
 ```
