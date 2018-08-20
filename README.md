@@ -1,5 +1,6 @@
 # 异常捕捉方法
-> 崩溃日志手机端显示
+> 崩溃日志手机端显示  
+> 如果要保存文件可以看我写的另一个[ExceptionCrashHandler](https://github.com/Thor-jelly/ExceptionCrashHandler)
 
 # 使用
 
