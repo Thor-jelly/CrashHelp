@@ -2,6 +2,8 @@
 > 崩溃日志手机端显示  
 > 如果要保存文件可以看我写的另一个[ExceptionCrashHandler](https://github.com/Thor-jelly/ExceptionCrashHandler)
 
+[![GitHub release](https://img.shields.io/badge/release-v1.0.5-green.svg)](https://github.com/Thor-jelly/CrashHelp/releases)
+
 # 使用
 
 ```
@@ -12,7 +14,7 @@ allprojects {
 		}
 	}
 	dependencies {
-	        implementation 'com.github.Thor-jelly:CrashHelp:v1.0.4'
+	        implementation 'com.github.Thor-jelly:CrashHelp:v最新版本号'
 	}
 ```
 
