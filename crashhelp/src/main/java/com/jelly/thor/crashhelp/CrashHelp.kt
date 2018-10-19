@@ -8,12 +8,12 @@ import java.io.StringWriter
 import java.util.*
 
 
-@SuppressLint("StaticFieldLeak")
 /**
  * 类描述：实现UncaughtExceptionHandler来实现获取应用全局的crash信息 <br/>
  * 创建人：吴冬冬<br/>
  * 创建时间：2018/7/3 13:41 <br/>
  */
+@SuppressLint("StaticFieldLeak")
 object CrashHelp : Thread.UncaughtExceptionHandler {
     private lateinit var mBuilder: Builder
 
