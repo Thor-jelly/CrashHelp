@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat
 
 class CrashActivity : AppCompatActivity() {
     companion object {
-        val CRASH_BEAN = "crash_bean"
+        const val CRASH_BEAN = "crash_bean"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
